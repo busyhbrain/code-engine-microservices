@@ -1,7 +1,7 @@
 #!/bin/bash
 
-read -p "Dockerhub Username: " DOCKERHUB_NAME
-read -s -p "Dockerhub Password: " DOCKERHUB_PASS
+read -p "Dockerhub Username: " busyhenrybrain
+read -s -p "Dockerhub Password: " halfage@14
 
 [ -z "$DOCKERHUB_NAME" ] && echo "Missing required Dockerhub Username"  && exit 1
 [ -z "$DOCKERHUB_PASS" ] && echo "Missing required Dockerhub Password"  && exit 1
